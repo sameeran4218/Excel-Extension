@@ -6,13 +6,11 @@ Easily perform regression analysis directly within Microsoft Excel with this VBA
 
 ## Key Highlights:
 
-Automatically calculates regression metrics.
+- Automatically calculates regression metrics.
 
-Replaces missing values with column medians.
+- Generates scatter plot and best fit regression line.
 
-Generates graphs for better insights.
-
-Deployable as an Excel Add-In for seamless use.
+- Deployable as an Excel Add-In for seamless use.
 
 ## 💻 Tech Stack
 
@@ -20,7 +18,7 @@ Language: VBA (Visual Basic for Applications)
 
 Platform: Microsoft Excel
 
-File Types: .xlsm (Macro-Enabled Workbook), .xlam (Excel Add-In)
+File Types: .xlam (Excel Add-In)
 
 ## ✨ Features
 
@@ -36,59 +34,24 @@ File Types: .xlsm (Macro-Enabled Workbook), .xlam (Excel Add-In)
 
 ## 📥 Installation Instructions
 
-Option 1: Use as Workbook (.xlsm)
-
-Open the .xlsm file in Microsoft Excel.
-
-Enable macros:
-
-Go to File > Options > Trust Center > Trust Center Settings > Macro Settings.
-
-Select Enable all macros.
-
-Press Alt + F8, select the macro (MyMacro), and click Run.
-
-Option 2: Use as Add-In (.xlam)
-
-Save the file as an Add-In:
-
-Open the .xlsm file in Excel.
-
-Go to File > Save As > Choose Excel Add-In (.xlam) from the file type dropdown.
-
-Save the file in a known location.
-
-Install the Add-In:
-
-Open Excel and go to File > Options > Add-Ins.
-
-In the Manage dropdown, select Excel Add-ins and click Go.
-
-Click Browse, locate the .xlam file, and click OK.
-
-Ensure the checkbox next to the add-in is checked.
-
-Access the macro via the Developer tab > Macros or a custom Ribbon button.
+### Use as Add-In (.xlam)
+- Download the .xlam file provided in the repository.
+- Locate the file and go to Properties and check the Unblock option at the bottom of the window.
+- Open Excel.
+- Go to File > Options > Add-Ins.
+- At the bottom, in the Manage dropdown, select Excel Add-ins and click Go.
+- Click Browse and locate your .xlam file.
+- Select the file and click OK. The add-in will now appear in the list of available add-ins.
+- Go to Developer Tab > Excel Add-Ins and check the downloaded .xlam file.
 
 ## 📖 User Instructions
 
 Run the Macro:
-
-Open the Developer tab > Macros, or click the custom Ribbon button (if configured).
-
-Input Columns:
-
-Enter column letters for the independent variable (X) and dependent variable (Y) when prompted.
-
-View Results:
-
-Results are displayed next to the data.
-
-Predicted values appear in the subsequent column.
-
-Visualize Data:
-
-A chart with actual values and the regression line is generated automatically.
+- Go to My Tab and click on Linear Regression Add-In
+-Enter column letters for the independent variable (X) and dependent variable (Y) when prompted.
+-Results are displayed next to the data.
+-Predicted values appear in the subsequent column.
+-A chart with actual values and the regression line is generated automatically.
 
 ## ⚠️ Error Handling
 
