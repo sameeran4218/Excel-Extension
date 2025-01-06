@@ -14,11 +14,9 @@ Easily perform regression analysis directly within Microsoft Excel with this VBA
 
 ## 💻 Tech Stack
 
-Language: VBA (Visual Basic for Applications)
-
-Platform: Microsoft Excel
-
-File Types: .xlam (Excel Add-In)
+-Language: VBA (Visual Basic for Applications)
+- Platform: Microsoft Excel
+- File Types: .xlam (Excel Add-In)
 
 ## ✨ Features
 
@@ -48,16 +46,14 @@ File Types: .xlam (Excel Add-In)
 
 Run the Macro:
 - Go to My Tab and click on Linear Regression Add-In
--Enter column letters for the independent variable (X) and dependent variable (Y) when prompted.
--Results are displayed next to the data.
--Predicted values appear in the subsequent column.
--A chart with actual values and the regression line is generated automatically.
+- Enter column letters for the independent variable (X) and dependent variable (Y) when prompted.
+- Results are displayed next to the data.
+- Predicted values appear in the subsequent column.
+- A chart with actual values and the regression line is generated automatically.
 
 ## ⚠️ Error Handling
 
-Missing Values: Automatically replaced with column medians.
-
-Non-Numeric Data: Skipped with a warning.
-
-Invalid Input: Prompts for valid column letters.
+- Missing Values: Automatically replaced with column medians.
+- Non-Numeric Data: Skipped with a warning.
+- Invalid Input: Prompts for valid column letters.
 
