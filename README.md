@@ -1,10 +1,10 @@
-📊 Regression Analysis Macro for Excel
+# 📊 Regression Analysis Macro for Excel
 
-📄 Description
+## 📄 Description
 
 Easily perform regression analysis directly within Microsoft Excel with this VBA-powered tool. It automates the computation of slope, intercept, and R² score, handles missing data by replacing it with column medians, and generates insightful graphs to visualize results.
 
-Key Highlights:
+## Key Highlights:
 
 Automatically calculates regression metrics.
 
@@ -14,7 +14,7 @@ Generates graphs for better insights.
 
 Deployable as an Excel Add-In for seamless use.
 
-💻 Tech Stack
+## 💻 Tech Stack
 
 Language: VBA (Visual Basic for Applications)
 
@@ -22,7 +22,7 @@ Platform: Microsoft Excel
 
 File Types: .xlsm (Macro-Enabled Workbook), .xlam (Excel Add-In)
 
-✨ Features
+## ✨ Features
 
 📐 Automated Regression Analysis: Computes slope, intercept, and R² score effortlessly.
 
@@ -34,7 +34,7 @@ File Types: .xlsm (Macro-Enabled Workbook), .xlam (Excel Add-In)
 
 🚀 Excel Add-In Support: Easily accessible across multiple workbooks.
 
-📥 Installation Instructions
+## 📥 Installation Instructions
 
 Option 1: Use as Workbook (.xlsm)
 
@@ -70,7 +70,7 @@ Ensure the checkbox next to the add-in is checked.
 
 Access the macro via the Developer tab > Macros or a custom Ribbon button.
 
-📖 User Instructions
+## 📖 User Instructions
 
 Run the Macro:
 
@@ -90,7 +90,7 @@ Visualize Data:
 
 A chart with actual values and the regression line is generated automatically.
 
-⚠️ Error Handling
+## ⚠️ Error Handling
 
 Missing Values: Automatically replaced with column medians.
 
