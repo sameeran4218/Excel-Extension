@@ -52,7 +52,7 @@ Easily perform regression analysis directly within Microsoft Excel with this VBA
 - A chart with actual values and the regression line is generated automatically.
 
 ### Code Help :
-- The CustomRibbon.xml file provides the neccessary code to be used in the Office RibbonX Editor software
+- The CustomRibbonUI.xml file provides the neccessary code to be used in the Office RibbonX Editor software
 - The RegressionMacro.bas file provides the VBA code used in the project
 - Both files can be opened in VS Code
 
