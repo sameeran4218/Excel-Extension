@@ -1,0 +1,14 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui"> 
+  <ribbon startFromScratch="false"> 
+    <tabs> 
+      <tab id="CustomTab" label="My Tab"> 
+        <group id="SimpleControls" label="My Group"> 
+          <button id="Button1" image="linear-regression" size="large" 
+                  label="Linear Regression" 
+                  screentip="Linear Regression Model" 
+                  onAction="MyMacro"/> 
+        </group> 
+      </tab> 
+    </tabs> 
+  </ribbon> 
+</customUI>
