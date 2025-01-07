@@ -44,14 +44,14 @@ Easily perform regression analysis directly within Microsoft Excel with this VBA
 
 ## 📖 User Instructions
 
-Run the Macro:
+### Run the Macro :
 - Go to My Tab and click on Linear Regression Add-In
 - Enter column letters for the independent variable (X) and dependent variable (Y) when prompted.
 - Results are displayed next to the data.
 - Predicted values appear in the subsequent column.
 - A chart with actual values and the regression line is generated automatically.
 
-Code Help:
+### Code Help :
 - The CustomRibbon.xml file provides the neccessary code to be used in the Office RibbonX Editor software
 - The RegressionMacro.bas file provides the VBA code used in the project
 - Both files can be opened in VS Code
