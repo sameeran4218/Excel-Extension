@@ -2,7 +2,7 @@
 
 ## 📄 Description
 
-Easily perform regression analysis directly within Microsoft Excel with this VBA-powered tool. It automates the computation of slope, intercept, and R² score, handles missing data by replacing it with column medians, and generates insightful graphs to visualize results.
+Easily perform regression analysis directly within Microsoft Excel with this VBA-powered tool. It automates the computation of slope, intercept, and R² score and generates an insightful graph to visualize results.
 
 ## Key Highlights:
 
